@@ -1,0 +1,535 @@
+body {
+  /* height: 100vh; */
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+.appbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 9999;
+  background-color: #003366;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+}
+.appbar-container{
+  display: flex;
+  justify-content: space-around;
+}
+.appbar-contents{
+  /* margin-left: auto; */
+  display: flex;
+  gap:50px;
+ font-size: 25px;
+margin-right: 20px;
+}
+.appbar-contents:hover{ 
+  cursor: pointer;
+}
+.resume{
+  margin:30px;
+}
+section {
+  width: 100%;
+  height: max-content;
+}
+.homepage-container{
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/health-care-medical-pattern-innovation-concept-background-design-abstract-geometric-hexagons-shape-medicine-science-background-vector-illustration_230610-1040.jpg?w=1480");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+.homepage-content{
+  height: 50%;
+  width:50%;
+}
+
+.name-container{
+  font-size: 50px;
+  color:#003153;
+}
+.content-container{
+  font-size: 20px;
+  font-weight: 400;
+  color:#003153;
+}
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px 0px white;
+  border-radius: 50%;
+  height: 480px;
+  width: 480px;
+  margin: 0 0px 0 100px;
+}
+.profile-picture-background {
+  height: 88%;
+  width: 92%;
+  background-image: url("https://scontent.fmaa2-4.fna.fbcdn.net/v/t39.30808-6/292123135_1797559090589672_3668351713125234215_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=GuTYBBGFo6sAX-hdn2R&_nc_ht=scontent.fmaa2-4.fna&oh=00_AT-I0BGnstPMC47fN78qPC1m6ffs-tbtPpoGHzP2LjKDjw&oe=62D62129");
+  background-size: cover;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 1s ease-in;
+}
+.media-icon{
+  margin: 30px;
+}
+.media-icon:hover{
+ cursor: pointer;
+}
+.aboutme-container{
+  height:fit-content;
+  color:#003366;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme-heading{
+  display: flex;
+  margin: 70px;
+  justify-content: center;
+  font-size: 30px;
+}
+.aboutme-content{
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 90%;
+}
+.logos {
+  width: 7rem;
+  height: 6rem;
+  background-color: rgb(241, 244, 246);
+  display: flex;
+  column-gap: 1rem;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: .2rem;
+}
+
+.softwares {
+  width:80%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.projects-container{
+  height:fit-content;
+  color:#003366;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding:30px;
+}
+.projects-heading{
+  display: flex;
+  margin: 70px;
+  justify-content: center;
+  font-size: 30px;
+}
+.project-pic{
+  width:800px;
+  height:450px;
+  margin-left:150px;
+}
+.project-title{
+  margin:40px;
+}
+.project-cards{
+  margin: 0;
+  padding: 0;
+}
+.project-content{
+  font-size: 15px;
+  margin-left:40px;
+  width:90%;
+}
+#parent1 {
+  position: relative;
+   width:min-content;
+  height:450px;
+}
+#child1 {
+  position: absolute;
+  width:700px;
+  height:300px;
+  top: 70px;
+  left: 650px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#parent2 {
+  position: relative;
+  width:min-content;
+  height:450px;
+  margin: 50px;
+  margin-left: 750px;
+}
+#child2 {
+  position: absolute;
+  width:700px;
+  height:300px;
+  top: 70px;
+  right: 250px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.code-buttons{
+  margin-left:40px;
+}
+.footer-container{
+  margin-bottom: auto;
+  background-color: #003153;
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-container{
+  height: 500px;
+  background-image: url("https://www.pngmagic.com/product_images/Neon-Pink-solid-color-background.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.contactme-heading{
+  font-size: 30px;
+  color:#003153;
+}
+.contactme-body{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pic{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.contactme-title{
+  font-weight: bold;
+  font-size: 25px;
+  color:#003153;
+}
+.contactme-box{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.contactme-content{
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  color:#003153;
+}
+.links{
+  display: flex;
+  align-items: center;
+}
+.links:hover{
+  cursor: pointer;
+}
+/* @media (min-width: 801px) and (max-width: 1000px)  */
+@media screen and (max-width: 1750px) {
+  #parent2 {
+    margin-left: 600px;
+ }
+}
+@media screen and (max-width: 1600px) {
+  #parent2 {
+    margin-left: 400px;
+ }
+}
+@media screen and (max-width: 1440px) {
+  #child1 {
+    width:600px;
+  }
+  #parent2 {
+     margin-left: 350px;
+  }
+  #child2 {
+      width:600px;
+  }
+  .logos {
+    width: 5rem;
+    height: 4rem;
+  }
+  .aboutme-container{
+    height:100vh;
+  }
+}
+@media screen and (max-width: 1350px) {
+  #parent1 {
+    position: relative;
+    width:fit-content;
+    height:fit-content;
+    margin-left: 50px;
+  }
+  #child1 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    top: 50px;
+    left: 650px;
+  }
+  
+  #parent2 {
+    position: relative;
+    width:min-content;
+    height:fit-content;
+    margin-left: 250px;
+  }
+  #child2 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    top: 60px;
+    right: 550px;
+  }
+ 
+}
+@media (min-width: 1001px) and (max-width: 1250px) {
+  .project-pic{
+    margin: 0;
+    width:500px;
+    height:250px;
+  }
+  #parent1 {
+    position: relative;
+    width:fit-content;
+    height:fit-content;
+  }
+  #child1 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    top: 30px;
+    left: 350px;
+  }
+  
+  #parent2 {
+    position: relative;
+    width:min-content;
+    height:fit-content;
+    margin-left: 450px;
+  }
+  #child2 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    top: 40px;
+    right: 350px;
+  }
+  .project-title{
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .project-content{
+    font-size: 10px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .homepage-container{
+    height:850px;
+  }
+  .homepage-content{
+    margin-left:40px;
+  }
+  .name-container{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .aboutme-container{
+   margin: 0;
+   height:max-content;
+  }
+
+  .project-pic{
+    margin: 0;
+    width:600px;
+    height:350px;
+  }
+  #parent1 {
+    position: relative;
+    width:fit-content;
+    height:fit-content;
+    margin-left: 50px;
+  }
+  #child1 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    top: 50px;
+    left: 350px;
+  }
+  
+  #parent2 {
+    position: relative;
+    width:min-content;
+    height:fit-content;
+    margin-left: 250px;
+  }
+  #child2 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    /* top: 60px;
+    right: 250px; */
+  }
+  .project-title{
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .project-content{
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .contactme-title, .contactme-content, .contactme-heading{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .appbar{
+    position: fixed !important;
+    top:0;
+    font-size: 12px;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    gap:10px;
+    height: 70px;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center;
+  }
+ 
+  .appbar-contents{
+    font-size: small;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homepage-container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    height:700px;
+  }
+  .profile-picture{
+    width:250px;
+    height: 250px;
+    margin-top: 140px;
+  }
+  .homepage-content{
+    align-items: flex-start;
+    width:90%;
+  }
+  .content-container{
+    font-size: 15px;
+  }
+  .softwares {
+    gap: 2rem;
+  }
+  .logos {
+    width: 4rem;
+    height: 3rem;
+  }
+  .contactme-title, .contactme-content, .contactme-heading{
+    font-size: 10px;
+  }
+  .aboutme-heading, .projects-heading{
+    font-size: 20px;
+  }
+  .projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-pic{
+    width:300px;
+    height:150px;
+  }
+  .project-cards{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+  }
+  #parent1, #parent2  {
+    position: initial;
+    width:fit-content;
+    height:fit-content;
+    padding:auto;
+    margin: auto;
+    display:inline-block;
+  }
+
+  #child1,   #child2{
+    width:300px;
+    height:fit-content;
+    font-size: 10px;
+    position: inherit;
+    display:inline-block;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  .project-title,.project-content{
+    display: inline-block;
+    font-size: 10px;
+  }
+   .contactme-title, .contactme-content, .contactme-heading{
+    font-size: 15px;
+    gap:5px;
+  }
+ .pic{
+   width:200px;
+   height:200px;
+ }
+ .footer-container{
+   height: 40px;
+   font-size: 12px;
+ }
+ .contactme-body{
+   display: flex;
+   flex-direction: column;
+ }
+ .profile-picture{
+   display: none;
+ }
+}
